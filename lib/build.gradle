@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
-apply from: 'jitpack.gradle'
+//apply from: 'jitpack.gradle'
 
 android {
+    namespace 'com.tbruyelle.rxpermissions2'
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     compileOptions {
